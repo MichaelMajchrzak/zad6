@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Powiązanie elementów interfejsu
+        
         emailInput = findViewById(R.id.emailInput);
         passwordInput = findViewById(R.id.passwordInput);
         repeatPasswordInput = findViewById(R.id.repeatPasswordInput);
         messageArea = findViewById(R.id.messageArea);
         Button submitButton = findViewById(R.id.submitButton);
 
-        // Obsługa kliknięcia przycisku
+        
         submitButton.setOnClickListener(view -> validateInput());
     }
 
